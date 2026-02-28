@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 const allowed = [
+  'https://backendbudgetmanager.onrender.com',
   'http://localhost:3000',
   'http://localhost:3001',
   'http://localhost:5173',
